@@ -1,0 +1,18 @@
+
+
+.search-bar {
+  background-color: #fff;
+  width: 97%;
+  text-align: center;
+  border-radius: 3px;
+  -moz-box-shadow: 1px 1px 3px 0px #BDC3C7;
+  -webkit-box-shadow: 1px 1px 3px 0px #BDC3C7;
+  box-shadow: 1px 1px 3px 0px #BDC3C7;
+
+  &__Input {
+    width: 100%;
+    align-items: center;
+    padding: 0.9rem;
+  }
+
+}
