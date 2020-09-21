@@ -4,9 +4,11 @@ import SearchBar from 'src/components/SearchBar';
 import Message from 'src/components/Message';
 import ReposResults from 'src/components/ReposResults';
 import 'semantic-ui-css/semantic.min.css';
-import logo from 'src/assets/images/logo-github.png';
+
 import axios from 'axios';
 import { Button } from 'semantic-ui-react';
+
+import logo from './logo-github.png';
 
 import './app.scss';
 
