@@ -7,7 +7,7 @@ Le nombre de résultats total est donné sous la barre de recherche.
 Stack technique
 -----
 
-* React (axios)
+* React (axios, hooks)
 * Semantic UI
 * Babel / Webpack
 * ESLint
