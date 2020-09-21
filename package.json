@@ -1,6 +1,9 @@
 {
+  "homepage": "https://NicolasVid.github.io/Github_API",
   "name": "react-modele",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",  
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "lint": "eslint src/**/*.js",
